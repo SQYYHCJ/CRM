@@ -8,4 +8,7 @@
 @Date 2021/6/3 13:23 
 -->
 <mapper namespace="top.sqyy.crm.settings.dao.UserDao">
+    <select id="login" resultType="User">
+        select * from tbl_user where loginAct = #{loginAct} and loginPwd = #{loginPwd}
+    </select>
 </mapper>
