@@ -11,6 +11,7 @@
     <properties resource="jdbc.properties"/>
     <typeAliases>
         <package name="top.sqyy.crm.settings.domain"/>
+        <package name="top.sqyy.crm.workbench.domain"/>
     </typeAliases>
 
     <environments default="development">
@@ -26,5 +27,6 @@
     </environments>
     <mappers>
         <package name="top.sqyy.crm.settings.dao"/>
+        <package name="top.sqyy.crm.workbench.dao"/>
     </mappers>
 </configuration>
